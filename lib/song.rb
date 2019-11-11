@@ -60,7 +60,7 @@ def self.genre_count
     @@genres.each do |genre|
       genre_count[genre]
    #if genre_count[genre] == true
-
+end
    #else
     # false
    #end
