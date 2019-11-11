@@ -59,11 +59,11 @@ def self.genre_count
 
     @@genres.each do |genre|
    if genre_count[genre] == true
-      genre.count
+      genre_count << count.sum
    else
-
+     false
    end
-end
+
 end
 
 
