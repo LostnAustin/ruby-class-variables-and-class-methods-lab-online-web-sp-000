@@ -60,9 +60,9 @@ def self.genre_count
 #@@genres.group_by(genre)
 
    if genre_count[genre] == true
-     genre += 1
+     genre_count[genre] += 1
    else
-    genre = 1
+    genre_count[genre] = 1
   end
 
 end
