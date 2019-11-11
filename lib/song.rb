@@ -51,17 +51,18 @@ end
 
 def self.genre_count
       genre_count = {}
-      #@genres
-      #   @@genres.each { |genre| genre }
-#genre_count ={ genre => @@genres.count}
-  #@@genres.each do |genre|
-  #@@genres.group_by(genre)
 
     @@genres.each do |genre|
     
-   #if genre_count[genre] == true
+
 
 end
+#@genres
+#   @@genres.each { |genre| genre }
+#genre_count ={ genre => @@genres.count}
+#@@genres.each do |genre|
+#@@genres.group_by(genre)
+   #if genre_count[genre] == true
    #else
     # false
    #end
