@@ -59,7 +59,7 @@ def self.genre_count
 
     @@genres.each do |genre|.Hash.new
    if genre_count[genre] == true
-    
+
    else
      false
    end
