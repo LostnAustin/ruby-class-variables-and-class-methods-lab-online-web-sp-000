@@ -66,7 +66,7 @@ def self.genre_count
   end
 
 end
-  genre_count[genre]
+  genre_count
 end
 
 
