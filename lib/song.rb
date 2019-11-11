@@ -61,6 +61,7 @@ def self.genre_count
     genre.each do |count|
    #if genre_count[genre] == true
 end
+end
    #else
     # false
    #end
