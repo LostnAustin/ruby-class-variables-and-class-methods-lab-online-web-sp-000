@@ -57,8 +57,8 @@ def self.genre_count
   #@@genres.each do |genre|
   #@@genres.group_by(genre)
 
-    @@genres.each do |genre, count|
-    
+    @@genres.each do |genre|
+    genre.each do |count|
    #if genre_count[genre] == true
 end
    #else
