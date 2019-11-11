@@ -63,7 +63,7 @@ def self.genre_count
    else
      false
    end
-
+end
 end
 
 
