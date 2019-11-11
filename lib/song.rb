@@ -57,13 +57,14 @@ def self.genre_count
   #@@genres.each do |genre|
   #@@genres.group_by(genre)
 
-    @@genres.each do |genre|.Hash.new
-   if genre_count[genre] == true
+    @@genres.each do |genre|
+      genre_count[genre]
+   #if genre_count[genre] == true
 
-   else
-     false
-   end
-end
+   #else
+    # false
+   #end
+#end
 end
 
 
